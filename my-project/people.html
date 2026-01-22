@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeDose - Team</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar Section -->
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="/" id="navbar__logo"><span class="logo-circle">S</span> SAFEDOSE</a>  
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+            <a href="/" class="navbar__links">Home</a>
+        </li>
+        <li class="navbar__item">
+            <a href="timeline.html" class="navbar__links">Development</a>
+        </li>
+        <li class="navbar__item">
+            <a href="map.html" class="navbar__links">Features</a>
+        </li>
+        <li class="navbar__item">
+            <a href="people.html" class="navbar__links">Reminders</a>
+         </li> 
+      </ul>
+    </div>
+  </nav>
+
+  <!-- People Section-->
+   <div class="people-page">
+     <div class="page-container">
+       <div style="text-align: center; margin-bottom: 3rem;">
+         <h1 style="background-color: #ff8177; background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%); background-size: 100%; -webkit-background-clip: text; -moz-background-clip: text; -webkit-text-fill-color: transparent; -moz-text-fill-color: transparent; font-size: 3rem; margin-bottom: 1rem;">SafeDose Team</h1>
+         <p style="font-size: 1.125rem; color: #999; max-width: 800px; margin: 0 auto;">
+           Meet the innovative team of engineers, designers, and healthcare professionals behind SafeDose
+         </p>
+       </div>
+
+       <!-- People Filter Section -->
+       <div class="people-filter">
+           <input type="text" id="people-search" placeholder="Search notable people..." class="people-search-input">
+           <button id="sort-btn" class="sort-btn">Sort A-Z</button>
+       </div>
+
+       <div id="people-grid" class="people-grid"></div>
+     </div>
+   </div>
+
+   <!-- Modal for People Details -->
+   <div id="people-modal" class="people-modal">
+       <div class="modal-content">
+           <span class="close-modal">&times;</span>
+           <div class="modal-body">
+               <h2 id="modal-name"></h2>
+               <p id="modal-role" class="modal-role"></p>
+               <p id="modal-history" class="modal-history"></p>
+           </div>
+       </div>
+   </div>
+
+    <!-- Footer Section -->
+     <div class="footer__container">
+        <div class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo"><span class="logo-circle">S</span>SAFEDOSE</a>
+                </div>
+                <p class="website__rights">© SAFEDOSE 2026. All rights reserved.</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- Rotating Logos Section-->
+     <div class="rotating-logos">
+        <div class="rotating-logos__track">
+            <span class="logo-text">SAFEDOSE</span>
+            <span class="logo-text">SMART PILLS</span>
+            <span class="logo-text">MEDICATION</span>
+            <span class="logo-text">REMINDERS</span>
+            <span class="logo-text">ACCESSIBLE</span>
+            <span class="logo-text">RELIABLE</span>
+        </div>
+     </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+

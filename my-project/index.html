@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alimora - The Sustainable City Tour</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">
+                <img src="images/alimora-logo.png" alt="Alimora" class="navbar-logo-image">
+                <span class="navbar-text">ALIMORA</span>
+            </a>  
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#tour" class="navbar__links">Tour</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#problem" class="navbar__links">The Challenge</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#solution" class="navbar__links">Solutions</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#systems" class="navbar__links">Living Here</a>
+                </li> 
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>ALIMORA</h1>
+                <h2>A Sustainable Circular Economy</h2>
+                <p>Welcome to the future. Discover how vertical farming and zero-waste innovation are transforming urban living on the southern coast of Brazil.</p>
+                <button class="main__btn"><a href="#tour">Start Your Tour</a></button>
+            </div>
+            <div class="main_image--container">
+                <div class="alimora-logo-hero">
+                    <img src="images/alimora-logo.png" alt="Alimora Logo" class="logo-image">
+                </div>
+                <div class="hero-illustration">
+                    <div class="bloom bloom-1"></div>
+                    <div class="bloom bloom-2"></div>
+                    <div class="sun"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Welcome Section -->
+    <div class="welcome-section">
+        <div class="logo-accent"><img src="images/alimora-logo.png" alt="" class="accent-logo"></div>
+        <div class="welcome__content">
+            <h2>Welcome to Alimora</h2>
+            <p class="welcome__subtitle">Founded in 2125, a city built on sustainability and quality of life</p>
+            <div class="welcome__highlights">
+                <div class="highlight-item">
+                    <h3>2 Million</h3>
+                    <p>Citizens thriving in harmony</p>
+                </div>
+                <div class="highlight-item">
+                    <h3>Zero Waste</h3>
+                    <p>Circular economy model</p>
+                </div>
+                <div class="highlight-item">
+                    <h3>100% Sustainable</h3>
+                    <p>Farm-to-table living</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- City Overview Section-->
+    <div class="overview" id="tour">
+        <div class="overview__wrapper">
+            <div class="overview__text">
+                <h1>The City Overview</h1>
+                <p>On the southern coast of Brazil, surrounded by lush green mountains, sandy beaches, and turquoise waters, lies the city of Alimora. This remarkable city boasts a zero-waste circular economy and an unparalleled quality of life for its two million citizens.</p>
+                <p class="overview__highlight">Food, transportation, and waste management are provided to maintain healthy lifestyles. A variety of careers are available, allowing everyone the opportunity to thrive. During their free time, residents can participate in water activities at Alimora Bay, pick fresh fruits and vegetables in community parks, relax in public gathering areas, and visit the city's arcades.</p>
+            </div>
+        </div>
+        <div class="overview__features">
+            <div class="feature-card">
+                <i class="fas fa-leaf"></i>
+                <h3>Sustainable Living</h3>
+                <p>Zero-waste circular economy</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-apple-alt"></i>
+                <h3>Farm to Table</h3>
+                <p>Fresh food within every community</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-city"></i>
+                <h3>Urban Innovation</h3>
+                <p>Vertical farming towers and smart systems</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-heart"></i>
+                <h3>Quality of Life</h3>
+                <p>Healthcare, education, transportation</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tour Stop: Florimora -->
+    <div class="tour-stop florimora" id="florimora">
+        <div class="tour-stop__header">
+            <h1>Tour Stop: The Florimoras</h1>
+            <p class="tour-subtitle">Communities designed for living well</p>
+        </div>
+        <p class="tour-description">Each Florimora is designed as a complete community featuring a central STEM tower surrounded by six Bloom towers. Together, they create a self-sufficient ecosystem for food production and sustainable living.</p>
+        
+        <!-- Florimora Community Diagram -->
+        <div class="diagram-section">
+            <h3>The Florimora Community Structure</h3>
+            <svg viewBox="0 0 400 400" class="florimora-diagram">
+                <!-- STEM Tower (center) -->
+                <circle cx="200" cy="200" r="50" fill="#1e5a38" stroke="#2d7a3d" stroke-width="3"/>
+                <text x="200" y="200" text-anchor="middle" dy=".3em" fill="white" font-weight="bold" font-size="16">STEM</text>
+                <text x="200" y="220" text-anchor="middle" dy=".3em" fill="white" font-size="11">Tower</text>
+                
+                <!-- Bloom Towers (6 surrounding) -->
+                <!-- Top -->
+                <circle cx="200" cy="80" r="40" fill="#4db896" stroke="#2d7a3d" stroke-width="2" opacity="0.85"/>
+                <text x="200" y="83" text-anchor="middle" dy=".3em" fill="white" font-weight="bold" font-size="13">Bloom</text>
+                
+                <!-- Top Right -->
+                <circle cx="310" cy="120" r="40" fill="#4db896" stroke="#2d7a3d" stroke-width="2" opacity="0.85"/>
+                <text x="310" y="123" text-anchor="middle" dy=".3em" fill="white" font-weight="bold" font-size="13">Bloom</text>
+                
+                <!-- Bottom Right -->
+                <circle cx="310" cy="280" r="40" fill="#4db896" stroke="#2d7a3d" stroke-width="2" opacity="0.85"/>
+                <text x="310" y="283" text-anchor="middle" dy=".3em" fill="white" font-weight="bold" font-size="13">Bloom</text>
+                
+                <!-- Bottom -->
+                <circle cx="200" cy="320" r="40" fill="#4db896" stroke="#2d7a3d" stroke-width="2" opacity="0.85"/>
+                <text x="200" y="323" text-anchor="middle" dy=".3em" fill="white" font-weight="bold" font-size="13">Bloom</text>
+                
+                <!-- Bottom Left -->
+                <circle cx="90" cy="280" r="40" fill="#4db896" stroke="#2d7a3d" stroke-width="2" opacity="0.85"/>
+                <text x="90" y="283" text-anchor="middle" dy=".3em" fill="white" font-weight="bold" font-size="13">Bloom</text>
+                
+                <!-- Top Left -->
+                <circle cx="90" cy="120" r="40" fill="#4db896" stroke="#2d7a3d" stroke-width="2" opacity="0.85"/>
+                <text x="90" y="123" text-anchor="middle" dy=".3em" fill="white" font-weight="bold" font-size="13">Bloom</text>
+                
+                <!-- Connection lines -->
+                <line x1="200" y1="250" x2="200" y2="280" stroke="#a3d9b8" stroke-width="2" stroke-dasharray="5,5"/>
+                <line x1="250" y1="225" x2="270" y2="260" stroke="#a3d9b8" stroke-width="2" stroke-dasharray="5,5"/>
+                <line x1="250" y1="175" x2="270" y2="140" stroke="#a3d9b8" stroke-width="2" stroke-dasharray="5,5"/>
+                <line x1="200" y1="150" x2="200" y2="120" stroke="#a3d9b8" stroke-width="2" stroke-dasharray="5,5"/>
+                <line x1="150" y1="175" x2="130" y2="140" stroke="#a3d9b8" stroke-width="2" stroke-dasharray="5,5"/>
+                <line x1="150" y1="225" x2="130" y2="260" stroke="#a3d9b8" stroke-width="2" stroke-dasharray="5,5"/>
+                
+                <!-- Labels -->
+                <text x="200" y="35" text-anchor="middle" fill="#2d7a3d" font-weight="bold" font-size="14">Alirail Network</text>
+                <text x="360" y="200" text-anchor="start" fill="#2d7a3d" font-weight="bold" font-size="14">AeroLink</text>
+            </svg>
+        </div>
+
+        <!-- Bloom Tower Detailed Diagram -->
+        <div class="diagram-section">
+            <h3>Bloom Tower Structure: Farm & Home Integrated</h3>
+            <svg viewBox="0 0 200 300" class="bloom-tower-diagram">
+                <!-- Main tower -->
+                <rect x="40" y="80" width="120" height="180" fill="#4db896" stroke="#2d7a3d" stroke-width="2"/>
+                
+                <!-- Housing levels -->
+                <rect x="50" y="90" width="100" height="35" fill="#a3d9b8" stroke="#2d7a3d" stroke-width="1.5"/>
+                <text x="100" y="112" text-anchor="middle" font-size="10" fill="#2d7a3d" font-weight="bold">Housing</text>
+                
+                <rect x="50" y="135" width="100" height="35" fill="#a3d9b8" stroke="#2d7a3d" stroke-width="1.5"/>
+                <text x="100" y="157" text-anchor="middle" font-size="10" fill="#2d7a3d" font-weight="bold">Housing</text>
+                
+                <rect x="50" y="180" width="100" height="35" fill="#a3d9b8" stroke="#2d7a3d" stroke-width="1.5"/>
+                <text x="100" y="202" text-anchor="middle" font-size="10" fill="#2d7a3d" font-weight="bold">Housing</text>
+                
+                <!-- Farming cantilevers -->
+                <!-- Left farming levels -->
+                <rect x="20" y="100" width="30" height="25" fill="#2d7a3d" stroke="#2d7a3d" stroke-width="1.5" opacity="0.8"/>
+                <text x="35" y="114" text-anchor="middle" font-size="8" fill="white" font-weight="bold">Farm</text>
+                
+                <rect x="20" y="150" width="30" height="25" fill="#2d7a3d" stroke="#2d7a3d" stroke-width="1.5" opacity="0.8"/>
+                <text x="35" y="164" text-anchor="middle" font-size="8" fill="white" font-weight="bold">Farm</text>
+                
+                <!-- Right farming levels -->
+                <rect x="150" y="100" width="30" height="25" fill="#2d7a3d" stroke="#2d7a3d" stroke-width="1.5" opacity="0.8"/>
+                <text x="165" y="114" text-anchor="middle" font-size="8" fill="white" font-weight="bold">Farm</text>
+                
+                <rect x="150" y="150" width="30" height="25" fill="#2d7a3d" stroke="#2d7a3d" stroke-width="1.5" opacity="0.8"/>
+                <text x="165" y="164" text-anchor="middle" font-size="8" fill="white" font-weight="bold">Farm</text>
+                
+                <!-- Connection lines -->
+                <line x1="50" y1="107" x2="20" y2="107" stroke="#1e5a38" stroke-width="1.5"/>
+                <line x1="150" y1="107" x2="180" y2="107" stroke="#1e5a38" stroke-width="1.5"/>
+                <line x1="50" y1="157" x2="20" y2="157" stroke="#1e5a38" stroke-width="1.5"/>
+                <line x1="150" y1="157" x2="180" y2="157" stroke="#1e5a38" stroke-width="1.5"/>
+                
+                <!-- Base -->
+                <rect x="30" y="260" width="140" height="30" fill="#1e5a38" stroke="#2d7a3d" stroke-width="2"/>
+                <text x="100" y="280" text-anchor="middle" font-size="11" fill="white" font-weight="bold">Waste Management</text>
+            </svg>
+        </div>
+        
+        <div class="florimora__grid">
+            <div class="florimora__item">
+                <div class="florimora__icon">🏢</div>
+                <h3>STEM Tower</h3>
+                <p>The heart of each community. A vertical farming tower that grows and manufactures food, providing cooking oils, dairy alternatives, and meat substitutes while serving as a community center.</p>
+            </div>
+            <div class="florimora__item">
+                <div class="florimora__icon">🌾</div>
+                <h3>Bloom Towers (x6)</h3>
+                <p>Residential skyscrapers featuring integrated agricultural facilities. Housing is at the core with farms cantilevering from each level, delivering fresh food directly to residents.</p>
+            </div>
+            <div class="florimora__item">
+                <div class="florimora__icon">⚡</div>
+                <h3>FIPEL Lighting</h3>
+                <p>Field-Induced Polymer Electroluminescence provides efficient, low-cost lighting that mimics natural sunlight, benefiting crop growth throughout the buildings.</p>
+            </div>
+            <div class="florimora__item">
+                <div class="florimora__icon">🏗️</div>
+                <h3>Self-Healing Concrete</h3>
+                <p>Advanced construction material with water and calcium carbonate particles that automatically repair cracks, extending building lifespan indefinitely.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Challenge Section -->
+    <div class="problem" id="problem">
+        <div class="problem__wrapper">
+            <h1>The Challenge We Faced</h1>
+            <p class="section-subtitle">Before Alimora, the southern coast of Brazil faced a sustainability crisis</p>
+            
+            <div class="problem__description">
+                <p>Crops grown on rural farms were transported long distances into cities in massive quantities. The long distances and spoilage created a humanitarian and environmental disaster:</p>
+            </div>
+
+            <div class="problem__stats">
+                <div class="stat-box">
+                    <h2>4,800</h2>
+                    <p>Tons of food wasted <strong>daily</strong></p>
+                </div>
+                <div class="stat-box">
+                    <h2>62%</h2>
+                    <p>From fruits and vegetables</p>
+                </div>
+                <div class="stat-box">
+                    <h2>∞</h2>
+                    <p>Water pollution from leachate</p>
+                </div>
+            </div>
+
+            <div class="problem__detail">
+                <p>Much of this waste was sent to landfills or left on the street, where it sat spoiled and uneaten. Rotten food created <strong>leachate</strong>, a dark, acidic liquid rich in contaminants that entered waterways, drastically polluting the water and threatening public health.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Solutions Section -->
+    <div class="solutions" id="solution">
+        <h1>The Solutions</h1>
+        <p class="section-subtitle">How Alimora transformed waste into wealth</p>
+        
+        <!-- Solution 1: Vertical Farming -->
+        <div class="solution-section">
+            <div class="solution__content">
+                <h2>Solution 1: Vertical Farming Towers</h2>
+                <p class="solution__intro">The Hydroponic-Aeroponic Integrated Life Systems (HAILS) represents a quantum leap in food production technology.</p>
+                
+                <div class="solution__detail">
+                    <p>Plants are genetically engineered using CRISPR-Cas9 technology to thrive in vertical environments. Perennial cycles are shortened to annual cycles, vines are modified to be compact, and root vegetables are engineered to grow perfectly in aeroponic systems.</p>
+                </div>
+
+                <h3>The HAILS Process</h3>
+                <div class="farming-process">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <h4>Hydroponic Start</h4>
+                        <p>Seeds germinate in perlite with nutrient-rich solution</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <h4>Aeroponic Maturation</h4>
+                        <p>Sprouts suspended, roots misted with reused nutrient solution</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <h4>Robotic Harvest</h4>
+                        <p>AI-guided robots pick crops, spot disease, and manage storage</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <h4>Farm to Apartment</h4>
+                        <p>Fresh produce delivered in reusable pods directly to residents</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Solution 2: Waste Management -->
+        <div class="solution-section alt">
+            <div class="solution__content">
+                <h2>Solution 2: Zero-Waste Energy System</h2>
+                <p class="solution__intro">Waste is no longer disposed of—it's transformed into fuel and fertilizer.</p>
+                
+                <div class="solution__detail">
+                    <p>The DAP (Digestion, After-treatment, Pyrolysis) process creates a truly circular economy where nothing is wasted. Biodegradable materials are broken down, processed, and converted into energy and nutrients that fuel the entire city.</p>
+                </div>
+
+                <h3>The Circular Cycle</h3>
+                <div class="waste-cycle">
+                    <div class="cycle-item">
+                        <div class="cycle-number">1</div>
+                        <h4>Waste Separation</h4>
+                        <p>AI robots separate biodegradable and recyclable materials</p>
+                    </div>
+                    <div class="cycle-item">
+                        <div class="cycle-number">2</div>
+                        <h4>Anaerobic Digestion</h4>
+                        <p>Waste breaks down into biogas and digestate</p>
+                    </div>
+                    <div class="cycle-item">
+                        <div class="cycle-number">3</div>
+                        <h4>Energy Generation</h4>
+                        <p>Hydrogen powers SOFCs and TPVs with 80% efficiency</p>
+                    </div>
+                    <div class="cycle-item">
+                        <div class="cycle-number">4</div>
+                        <h4>Regenerative Agriculture</h4>
+                        <p>Digestate fertilizes public gardens perpetually</p>
+                    </div>
+                </div>
+
+                <!-- SOFC Energy System Diagram -->
+                <div class="diagram-section">
+                    <h3>SOFC & Thermophotovoltaic Energy System</h3>
+                    <svg viewBox="0 0 500 250" class="sofc-diagram">
+                        <!-- Title -->
+                        <text x="250" y="25" text-anchor="middle" font-size="18" font-weight="bold" fill="#2d7a3d">SOFC Energy Generation</text>
+                        
+                        <!-- Hydrogen Input -->
+                        <g>
+                            <polygon points="30,120 80,100 80,140" fill="#d32f2f"/>
+                            <text x="20" y="130" font-size="14" font-weight="bold" fill="#d32f2f">Hydrogen</text>
+                            <line x1="80" y1="120" x2="120" y2="120" stroke="#d32f2f" stroke-width="3"/>
+                            <polygon points="110,115 125,120 110,125" fill="#d32f2f"/>
+                        </g>
+                        
+                        <!-- Air Input -->
+                        <g>
+                            <polygon points="420,100 470,120 420,140" fill="#bdbdbd"/>
+                            <text x="355" y="125" font-size="14" font-weight="bold" fill="#666">Air</text>
+                            <line x1="380" y1="120" x2="420" y2="120" stroke="#666" stroke-width="3"/>
+                            <polygon points="375,115 390,120 375,125" fill="#666"/>
+                        </g>
+                        
+                        <!-- Main SOFC Box -->
+                        <rect x="120" y="60" width="260" height="100" fill="#e3f2fd" stroke="#2d7a3d" stroke-width="3"/>
+                        <text x="250" y="85" text-anchor="middle" font-size="14" font-weight="bold" fill="#2d7a3d">SOFC</text>
+                        
+                        <!-- Anode/Cathode sections -->
+                        <rect x="130" y="70" width="50" height="80" fill="#81c784" stroke="#2d7a3d" stroke-width="2"/>
+                        <text x="155" y="120" text-anchor="middle" font-size="11" font-weight="bold" fill="white">Anode</text>
+                        
+                        <rect x="320" y="70" width="50" height="80" fill="#81c784" stroke="#2d7a3d" stroke-width="2"/>
+                        <text x="345" y="120" text-anchor="middle" font-size="11" font-weight="bold" fill="white">Cathode</text>
+                        
+                        <!-- Electrolyte center -->
+                        <rect x="200" y="75" width="100" height="70" fill="#ffeb3b" stroke="#2d7a3d" stroke-width="2"/>
+                        <text x="250" y="115" text-anchor="middle" font-size="12" font-weight="bold" fill="#2d7a3d">Electrolyte</text>
+                        
+                        <!-- Water output -->
+                        <g>
+                            <polygon points="150,170 170,200 130,200" fill="#1976d2"/>
+                            <text x="140" y="225" font-size="14" font-weight="bold" fill="#1976d2">Water</text>
+                            <line x1="150" y1="160" x2="150" y2="170" stroke="#1976d2" stroke-width="3"/>
+                            <polygon points="145,165 150,175 155,165" fill="#1976d2"/>
+                        </g>
+                        
+                        <!-- Heat to TPV -->
+                        <rect x="280" y="175" width="80" height="50" fill="#ffa726" stroke="#2d7a3d" stroke-width="2" rx="5"/>
+                        <text x="320" y="205" text-anchor="middle" font-size="12" font-weight="bold" fill="#2d7a3d">Thermophotovoltaic</text>
+                        <line x1="250" y1="160" x2="300" y2="175" stroke="#ff6f00" stroke-width="2"/>
+                        <text x="260" y="170" font-size="10" fill="#ff6f00">Heat</text>
+                        
+                        <!-- Electricity output -->
+                        <g>
+                            <text x="400" y="65" font-size="14" font-weight="bold" fill="#fbc02d">Electricity</text>
+                            <line x1="380" y1="110" x2="420" y2="110" stroke="#fbc02d" stroke-width="4"/>
+                            <polygon points="410,105 430,110 410,115" fill="#fbc02d"/>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Systems Section -->
+    <div class="systems" id="systems">
+        <div class="systems__wrapper">
+            <h1>Living in Alimora</h1>
+            <p class="section-subtitle">Advanced systems support every aspect of life</p>
+            
+            <div class="systems__grid">
+                <div class="system-card">
+                    <div class="system-icon">📊</div>
+                    <h3>Nutriwatch</h3>
+                    <p>A wearable device that tracks real-time nutrition levels and food consumption, recommending daily intake and healthcare visits for all citizens.</p>
+                </div>
+                <div class="system-card aerolink-card">
+                    <div class="system-icon">✈️</div>
+                    <h3>Aerolink</h3>
+                    <p>High-speed magnetic levitation pods reaching 100mph for far-distance travel, connecting Alimora to the outside world day and night.</p>
+                    <!-- Aerolink Animation -->
+                    <div class="transport-animation aerolink-animation">
+                        <svg viewBox="0 0 400 100" class="transport-svg">
+                            <defs>
+                                <linearGradient id="podGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#4db896;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#2d7a3d;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <!-- Track -->
+                            <line x1="20" y1="50" x2="380" y2="50" stroke="#a3d9b8" stroke-width="3" stroke-dasharray="10,5"/>
+                            <!-- Magnetic field effect -->
+                            <circle class="magnetic-field" cx="50" cy="50" r="25" fill="none" stroke="#5ba7d9" stroke-width="2" opacity="0.5"/>
+                            <!-- Pod -->
+                            <g class="pod-group aerolink-pod">
+                                <rect x="40" y="35" width="20" height="30" fill="url(#podGradient)" rx="3"/>
+                                <circle cx="50" cy="65" r="3" fill="#2d7a3d"/>
+                                <circle cx="50" cy="35" r="2" fill="#fbc02d"/>
+                            </g>
+                            <!-- Speed indicator -->
+                            <text class="speed-text" x="50" y="90" text-anchor="middle" font-size="12" fill="#2d7a3d" font-weight="bold">100 mph</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="system-card alirail-card">
+                    <div class="system-icon">🚂</div>
+                    <h3>Alirail</h3>
+                    <p>An elevated network of automated intercity vehicles ensuring smooth and efficient travel between Bloom towers throughout the city.</p>
+                    <!-- Alirail Animation -->
+                    <div class="transport-animation alirail-animation">
+                        <svg viewBox="0 0 400 120" class="transport-svg">
+                            <defs>
+                                <linearGradient id="trainGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#5ba7d9;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#2d7a3d;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <!-- Elevated track -->
+                            <line x1="20" y1="60" x2="380" y2="60" stroke="#a3d9b8" stroke-width="4"/>
+                            <rect x="18" y="60" width="364" height="8" fill="#8b7355" opacity="0.3"/>
+                            <!-- Support pillars -->
+                            <rect x="100" y="70" width="4" height="30" fill="#8b7355"/>
+                            <rect x="250" y="70" width="4" height="30" fill="#8b7355"/>
+                            <!-- Vehicle -->
+                            <g class="train-group alirail-train">
+                                <rect x="30" y="40" width="40" height="40" fill="url(#trainGradient)" rx="4"/>
+                                <circle cx="40" cy="80" r="4" fill="#2d7a3d"/>
+                                <circle cx="60" cy="80" r="4" fill="#2d7a3d"/>
+                                <rect x="32" y="45" width="10" height="12" fill="#b3d9f2" opacity="0.6"/>
+                                <rect x="48" y="45" width="10" height="12" fill="#b3d9f2" opacity="0.6"/>
+                            </g>
+                            <!-- Distance marker -->
+                            <text class="distance-text" x="50" y="110" text-anchor="middle" font-size="11" fill="#2d7a3d" font-weight="bold">Inter-Bloom Connection</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="system-card">
+                    <div class="system-icon">♿</div>
+                    <h3>Universal Accessibility</h3>
+                    <p>Tactile guidance paths, braille signage, auditory navigation, smooth surfaces, automated doors, and wide pathways for all citizens.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer__content">
+            <div class="footer__logo">
+                <a href="/" id="footer__logo">
+                    <img src="images/alimora-logo.png" alt="Alimora" class="footer-logo-image">
+                    <span>ALIMORA</span>
+                </a>
+            </div>
+            <div class="footer__info">
+                <p>A Zero-Waste Circular Economy</p>
+                <p>&copy; 2125 Alimora City | Lionville Middle School | Mr. Raines | December 15, 2025</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
